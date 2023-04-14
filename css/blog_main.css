@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+section h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: pink;
+    padding: 1rem 0 1rem;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+}
+
+main article h1 {
+    padding: 1rem 0 1rem;
+}
+
+main article h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main article h4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main article img {
+    align-self: center;
+    width: 70%;
+    height: 70%;
+    margin: 1rem 1rem;
+}
+
+.button_subscribe {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: solid 1px pink;
+    
+    padding: 1rem 1rem;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Bree+Serif');
+
+* {
+    box-sizing: border-box;
+    font-family: Lato, Noto Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}    
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0 0.5rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: pink;
+}
+
+a:visited {
+    color: pink;
+}
+
+/* Header Component */
+header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+}
+
+#main_navigation {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    width: 65%;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+
+/* Social Media Component */
+#social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0 1rem;
+    padding-top: 1rem;
+    border-top: 2px black solid;
+}
+
+#backtotop_navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem 1.5rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0.5rem;
+}

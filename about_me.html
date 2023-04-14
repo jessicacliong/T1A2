@@ -4,64 +4,83 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/main_style.css">
+        <link rel="stylesheet" type="text/css" href="css/about_me.css">
         <title>Jessica Liong | About Me</title>
     </head>
     <body>
         <!-- Start Header Area-->
         <header>
-        <!-- Main Website Navigation -->
-            <nav>
+            <!-- Main Website Navigation -->
+            <nav id="main_navigation">
                 <a href="index.html">Home</a>
                 <a href="about_me.html">About Me</a>
                 <a href="projects.html">Projects</a>
-                <a href="blog_main.html">Blog</a>
+                <a href="blog_main.html">Blog</a>   
             </nav>
         </header>
-        <main>
-            <h1>About Me</h1>
-            <h3>Professional Career</h3>
-            <p>
-                I am an aspiring web developer who has previously self-taught some coding skills and is currently completing the Diploma of Information Technology Bootcamp from Coder Academy to become a certified Developer.
-            </p>
-            <p>
-                I have decided to pursue a career in IT because it allows me to channel my logical, organized thinking and creative design.
-            </p>
-            <p>
-                I have currently learnt or will be learning the following technologies in the near future:
-                <ul class="IT Skills list">
-                    <li>Git</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>Node JS</li>
-                    <li>React</li>
-                </ul>
-            </p>
-            <p>To learn more about my skills and past experiences, please click the link to my resume below.
-            </p>
-            <p><a class="resume" href="" img src="">Resume</a></p>
-            <br></br>
-            <h3>Interests & Hobbies</h3>
-            <p>When I'm not working, I like to invest in Crypto, help out my family business or discover a new restaurant with friends and family.
-            </p>
-            <p>I love eating good food, travelling and photography. 
-            </p>
-            <br></br>
-            <!-- Social Media Links, Above Footer -->
-            <nav>
-                <a href="https://www.linkedin.com/in/jessica-liong"><img src="" alt="LinkedIn"/></a> 
-                <a href="https://github.com/jessica-liong"><img src="" alt="LinkedIn"/></a>
-                <a href="https://twitter.com/jessica-liong"><img src="" alt="Twitter"/></a>
-                <a href="instagram.com/jessicacelle"><img src="" alt="Instagram"/></a>
-                <a href="jessicacliong@gmail.com"><img src="" alt="Email"/></a>
-            </nav>
-            <!-- Footer -->
-            <footer>
-                <p>&copy; 2023 Jessica Liong</p>
-            </footer>
+        <main >
+        <!-- About Me Description -->
+            <article id="about_me">
+                <h1>About Me</h1>
+                <h3>Professional Career</h3>
+                <p>
+                    I am an aspiring web developer who has previously learnt some coding skills thourgh short courses such as Udacity & Coursera. 
+                    After completing the courses I've made a decision to pursue IT as a career and I'm currently completing the Diploma of Information Technology Bootcamp from Coder Academy to become a certified Developer.
+                </p>
+                <br>            
+                <p>
+                    I have decided to pursue a career in IT because it allows me to channel my logical, organized thinking and creative design.
+                    In my previous work experiences, I've always enjoyed building and creating great things and I believe I can channel the same passion in the IT industry.
+                </p>
+                <p>I have currently learnt or will be learning the following technologies in the near future:</p>
+                <br>
+                    <ul id="IT_skills_list">
+                        <li>Git</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>APIs</li>
+                        <li>C++</li>
+                        <li>Node JS</li>
+                        <li>React</li>
+                    </ul>
+                <br>
+                <p>To learn more about my skills and past experiences, please click the link to my resume below.</p>
+                <br>
+                <!-- Resume -->
+                <a id="resume" href="/documents/JL_CV.pdf"><img src="img/icons/icons8-document.jpeg" alt="Resume"/></a>
+                <br>
+            </article>
+            <article id="interests">
+                <!-- Interests & Hobbies -->
+                <h3>Interests & Hobbies</h3>
+                    <p>When I'm not working, I like to invest in Crypto, help out my family business or discover a new restaurant with friends and family.
+                       I love Malaysian, Chinese, Korean and Japanese Cuisines the most, though I like to try something new every so often. </p>
+                    <br>
+                    <p>In my spare time, I travel the world and photograph my adventures.</p>
+                    <br>
+                        <img src="/img/photos/airplane_window.jpeg" alt="">
+            </article>
         </main>
+        <!-- Back to Top Navigation -->
+        <section>
+            <nav id="backtotop_navigation">
+                <a href="about_me.html"><img src="/img/icons/icons8-up-squared-50.png"alt="Back to Top"/></a>
+            </nav>
+        <!-- Social Media Links, Above Footer -->
+            <nav id="social_links">
+                <a href="https://www.linkedin.com/in/jessica-liong/"><img src="/img/icons/icons8-linkedin-50.png" alt="LinkedIn"/></a> 
+                <a href="https://github.com/jessicacliong"><img src="/img/icons/icons8-github-50.png" alt="Github"/></a>
+                <a href="https://twitter.com/JessLiong11"><img src="/img/icons/icons8-twitter-50.png" alt="Twitter"/></a>
+                <a href="https://www.instagram.com/jessicacelle/"><img src="/img/icons/icons8-instagram-50.png" alt="Instagram"/></a>
+                <a href="mailto:jessicacliong@gmail.com"><img src="/img/icons/icons8-mail-50.png" alt="Send Email"/></a>
+            </nav>
+        </section>    
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Jessica Liong</p>
+        </footer>
     </body> 
 </html>

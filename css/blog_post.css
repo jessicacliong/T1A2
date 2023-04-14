@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2.5rem;
+}
+
+main h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: pink;
+    padding: 1rem 0 1rem;
+}
+
+main img {
+    align-self: center;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    width: 70%;
+    height: 75%;
+}

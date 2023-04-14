@@ -3,81 +3,91 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/main_style.css">
+        <link rel="stylesheet" type="text/css" href="css/blog_main.css">
         <title>Jessica Liong | Blog</title>
     </head>
     <!-- Start Header Area-->
-    <header>
-        <!-- Main Website Navigation -->
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about_me.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog_main.html">Blog</a>
-        </nav>
-    </header>
     <body>
-        <!-- Blog Post Navigation Bar -->
-        <h1>Blog</h1>
-        <header class="Blog-Navigation">
-            <ul>
-                <li class="blog-link"><a href="#blogpost-1">Post 1 | March 21, 2023</a></li>
-                <li class="blog-link"><a href="#blogpost-2">Post 2 | January 9, 2022</a></li>
-                <li class="blog-link"><a href="#blogpost-3">Post 3 | May 13, 2022</a></li>
-                <li class="blog-link"><a href="#blogpost-4">Post 4 | December 18, 2021</a></li>
-                <li class="blog-link"><a href="#blogpost-5">Post 5 | August 3, 2021</a></li>
-            </ul>
+        <header>
+            <!-- Main Website Navigation -->
+            <nav id="main_navigation">
+                <a href="index.html">Home</a>
+                <a href="about_me.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog_main.html">Blog</a>
+            </nav>
         </header>
-        <br></br>
+            <!-- Blog Post Navigation Bar -->
+        <section class="blog_navigation">    
+            <h1>Blog</h1>
+                <ul id="blogpost_summary">
+                    <li class="blog-link"><a href="#blogpost-1">HTMl | March 21, 2023</a></li>
+                    <li class="blog-link"><a href="#blogpost-2">CSS | May 13, 2022</a></li>
+                    <li class="blog-link"><a href="#blogpost-3">JavaScript | January 9, 2022</a></li>
+                    <li class="blog-link"><a href="#blogpost-4">Git | December 18, 2021</a></li>
+                    <li class="blog-link"><a href="#blogpost-5">React | August 3, 2021</a></li>
+                </ul>
+        </section>
         <!-- Preview of Blog Entries -->
         <main class="Blog-post-all">
             <article id="blogpost-1">
-                <h3>Post 1</h3>
-                <img src="" >
+                <h3>HTML</h3>
+                <img src="/img/blog_img/html5.png" >
                 <h4>March 21, 2023</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus id autem repellat et, rerum unde voluptas eum. Exercitationem, earum quas non esse velit iure? Excepturi inventore omnis sunt ipsam vel a nulla dicta nobis, unde adipisci, vitae maiores! Illo provident a consequatur, voluptate at officiis molestias laudantium magni sed temporibus odio et cumque exercitationem rem autem quasi asperiores deserunt quos nemo architecto. Animi, illo eveniet, dicta neque expedita quas deleniti iure excepturi iusto dignissimos officiis, corrupti eos. Consequuntur amet, placeat, mollitia explicabo similique quos provident quas soluta dolorum nostrum minima aperiam! Error sit fugit consectetur fugiat dolor dolore? Delectus!</p>
-                <p><a href="blog_1.html">Read More</a></p>
+                <br>
+                <a href="blog_1.html" target="_blank">Read More</a></p>
             </article>
-            <br></br>
+            <br>
             <article id="blogpost-2">
-                <h3>Post 2</h3>
-                <img src="">
-                <h4>January 9, 2022</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur animi, architecto enim, iusto facere aperiam est maxime labore optio tempore nemo minima quas, voluptas dicta molestiae. Et id ullam sunt voluptatibus ipsa! Itaque quasi voluptate saepe sapiente alias quos officiis possimus ut tenetur quia velit odit expedita maxime, repellat quidem! Cupiditate repudiandae accusantium nesciunt adipisci facere voluptates saepe animi, necessitatibus recusandae eveniet quia consectetur excepturi dolorum pariatur veritatis possimus. Omnis quaerat repudiandae illo libero facilis praesentium perferendis fugiat voluptate? Facilis corrupti doloremque asperiores quibusdam eaque dolores voluptatum! Nihil sapiente hic perspiciatis a ut earum incidunt cumque optio fugiat non.</p>
-                <p><a href="blog_2.html">Read More</a></p>
-            </article>
-            <br></br>
-            <article id="blogpost-3">
-                <h3>Post 3</h3>
-                <img src="">
+                <h3>CSS</h3>
+                <img src="/img/blog_img/css3.png">
                 <h4>May 13, 2022</h4>
-                <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur animi, architecto enim, iusto facere aperiam est maxime labore optio tempore nemo minima quas, voluptas dicta molestiae. Et id ullam sunt voluptatibus ipsa! Itaque quasi voluptate saepe sapiente alias quos officiis possimus ut tenetur quia velit odit expedita maxime, repellat quidem! Cupiditate repudiandae accusantium nesciunt adipisci facere voluptates saepe animi, necessitatibus recusandae eveniet quia consectetur excepturi dolorum pariatur veritatis possimus. Omnis quaerat repudiandae illo libero facilis praesentium perferendis fugiat voluptate? Facilis corrupti doloremque asperiores quibusdam eaque dolores voluptatum! Nihil sapiente hic perspiciatis a ut earum incidunt cumque optio fugiat non.</p>
-                <p><a href="blog_3.html">Read More</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur animi, architecto enim, iusto facere aperiam est maxime labore optio tempore nemo minima quas, voluptas dicta molestiae. Et id ullam sunt voluptatibus ipsa! Itaque quasi voluptate saepe sapiente alias quos officiis possimus ut tenetur quia velit odit expedita maxime, repellat quidem! Cupiditate repudiandae accusantium nesciunt adipisci facere voluptates saepe animi, necessitatibus recusandae eveniet quia consectetur excepturi dolorum pariatur veritatis possimus. Omnis quaerat repudiandae illo libero facilis praesentium perferendis fugiat voluptate? Facilis corrupti doloremque asperiores quibusdam eaque dolores voluptatum! Nihil sapiente hic perspiciatis a ut earum incidunt cumque optio fugiat non.</p>
+                <br>
+                <a href="blog_2.html" target="_blank">Read More</a>
             </article>
-            <br></br>
+            <br>
+            <article id="blogpost-3">
+                <h3>JavaScript</h3>
+                <img src="/img/blog_img/js.png">
+                <h4>January 9, 2022</h4>
+                <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet tenetur animi, architecto enim, iusto facere aperiam est maxime labore optio tempore nemo minima quas, voluptas dicta molestiae. Et id ullam sunt voluptatibus ipsa! Itaque quasi voluptate saepe sapiente alias quos officiis possimus ut tenetur quia velit odit expedita maxime, repellat quidem! Cupiditate repudiandae accusantium nesciunt adipisci facere voluptates saepe animi, necessitatibus recusandae eveniet quia consectetur excepturi dolorum pariatur veritatis possimus. Omnis quaerat repudiandae illo libero facilis praesentium perferendis fugiat voluptate? Facilis corrupti doloremque asperiores quibusdam eaque dolores voluptatum! Nihil sapiente hic perspiciatis a ut earum incidunt cumque optio fugiat non.</p>
+                <br>
+                <a href="blog_3.html" target="_blank">Read More</a>
+            </article>
+            <br>
             <article id="blogpost-4">
-                <h3>Post 4</h3>
-                <img src="">
+                <h3>Git</h3>
+                <img src="/img/blog_img/git.png">
                 <h4>December 18, 2021</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid quia repellendus odit quasi saepe veritatis maiores minima quidem dolorem eveniet deserunt temporibus totam velit, nobis molestias explicabo molestiae exercitationem rem voluptatem reiciendis. Dolorem necessitatibus nesciunt quia? Voluptates tempore a maiores nisi quas, rerum nesciunt odio, deserunt quaerat qui aspernatur eligendi voluptate minima facilis nihil natus provident repellat voluptas vitae neque. Blanditiis, fuga architecto dicta temporibus numquam molestias accusamus veritatis assumenda earum, obcaecati iste, laborum eligendi vel fugit ullam animi rem officia hic impedit tempore quasi? Voluptatem, quis eaque. Ad praesentium vitae officia atque nostrum tenetur maxime obcaecati, aliquid eligendi.</p>
-                <p><a href="blog_4.html">Read More</a></p>
+                <br>
+                <a href="blog_4.html" target="_blank">Read More</a>
             </article>
-            <br></br>
+            <br>
             <article id="blogpost-5">
-                <h3>Post 5</h3>
-                <img src="">
+                <h3>React</h3>
+                <img src="/img/blog_img/React.png">
                 <h4>August 3, 2021</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero minus numquam, laborum animi enim harum quisquam, dicta nulla nesciunt sed magni ipsum odio esse nihil aperiam eius voluptate pariatur? Accusantium quo voluptates impedit exercitationem incidunt dicta ex, autem minus illum placeat, ipsa fugit, dolorum similique explicabo. Facilis nesciunt, cum tempore ducimus enim expedita voluptate dicta perferendis in perspiciatis eos maiores iure inventore incidunt suscipit sed delectus illum eaque mollitia, libero autem. Rerum voluptatem et cupiditate eaque doloribus, neque eos vero deleniti eum, ad praesentium odio quo voluptatum officiis quae id, odit a delectus deserunt distinctio sunt vitae! Quo, perferendis accusantium.</p>            
-                <p><a href="blog_5.html">Read More</a></p>
+                <br>
+                <a href="blog_5.html" target="_blank">Read More</a>
             </article>
-            <br></br>
+            <br>
+            <a class="button_subscribe" href="">Subscribe to Blog</a>
+            <!-- Back to Top Navigation -->
+            <nav id="backtotop_navigation">
+                <a href="blog_main.html"><img src="/img/icons/icons8-up-squared-50.png"alt="Back to Top"/></a>
+            </nav>
             <!-- Social Media Links, Above Footer -->
-            <nav>
-                <a href="https://www.linkedin.com/in/jessica-liong"><img src="" alt="LinkedIn"/></a> 
-                <a href="https://github.com/jessica-liong"><img src="" alt="LinkedIn"/></a>
-                <a href="https://twitter.com/jessica-liong"><img src="" alt="Twitter"/></a>
-                <a href="instagram.com/jessicacelle"><img src="" alt="Instagram"/></a>
-                <a href="jessicacliong@gmail.com"><img src="" alt="Email"/></a>
+            <nav id="social_links">
+                <a href="https://www.linkedin.com/in/jessica-liong/"><img src="/img/icons/icons8-linkedin-50.png" alt="LinkedIn"/></a> 
+                <a href="https://github.com/jessicacliong"><img src="/img/icons/icons8-github-50.png" alt="Github"/></a>
+                <a href="https://twitter.com/JessLiong11"><img src="/img/icons/icons8-twitter-50.png" alt="Twitter"/></a>
+                <a href="https://www.instagram.com/jessicacelle/"><img src="/img/icons/icons8-instagram-50.png" alt="Instagram"/></a>
+                <a href="mailto:jessicacliong@gmail.com"><img src="/img/icons/icons8-mail-50.png" alt="Send Email"/></a>
             </nav>
             <!-- Footer -->
             <footer>
