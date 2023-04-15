@@ -1,4 +1,6 @@
 /* Projects Page Styling */
+
+/* MOBILE STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,15 +12,34 @@ body {
     flex-direction: column;
 }
 
-main article {
-    padding: 1.25rem;
+/* Projects Description */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main article h1 {
+main h1 {
+    padding: 1.25rem;
     text-decoration: underline;
-    text-decoration-thickness: 2px;
     text-decoration-color: pink;
-    padding: 1rem 0 1rem;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    border: solid 3px lightgrey;
+    border-radius: 5%;
+}
+
+main article div {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main article h3 {
@@ -37,7 +58,67 @@ main article h4 {
 }
 
 #project-1 img, #project-2 img, #project-3 img {
-    align-self: center;
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
+}
+
+#project-2 img{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* TABLET STYLING */
+
+@media only screen and (min-width: 600px) {
+
+        main {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        main h1 {
+            width: 100%;
+            text-align: left;
+            margin: 
+        }
+
+        main article {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 50%;
+            height: 100%;
+        }
+
+        main article h3 {
+            width: 100%;
+            text-align: left;
+        }
+
+        main article h4 {
+            width: 100%;
+            text-align: left;
+        }
+
+        main article div {
+            width: 100%;
+        }
+        
+        #project-1 img {
+            height: 100%;
+            width: 100%;
+        }
+
+
+        #project-2 img {
+            height: 100%;
+            width: 100%;
+            margin-top: 4rem;
+            margin-bottom: 4rem; 
+        }
+
+        #project-3 img {
+            height: 100%;
+            width: 100%;
+        }
 }

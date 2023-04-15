@@ -1,4 +1,6 @@
-/* About Me Page Styling */
+/* About Me Page  */
+
+/* MOBILE STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,49 +10,151 @@
 body {
     display: flex;
     flex-direction: column;
+    text-align: justify;
 }
 
 /* About Me Description */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    padding: 1.25rem;
+    text-decoration: underline;
+    text-decoration-color: pink;
+}
+
 main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1.25rem;
 }
 
-main article h1 {
-    padding: 1rem 0 1rem;
-    text-decoration: underline;
-    text-decoration-color: pink;
-
+main article div {
+    text-align: justify;
 }
 
+#career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 main article h3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
     text-decoration:underline;
     text-decoration-style: dotted;
     text-decoration-color: pink;
 }
 
-li {
-    margin-left: 1.5rem;
+main article p {
+    align-items: center;
 }
 
-#resume {
-    position: relative;
+#IT_skills_list ul {
+    margin: 1.5rem;
+}
+
+/* Resume */
+
+.resume {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-top: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.resume img {
+    margin-top: 2rem;
 }
 
 /* Interests & Hobbies Description */
-#interests {
+.interests {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-#interests img {
+.interests img {
     align-self: center;
     height: 100%;
     width: 100%;
     border-radius: 5%;
 }
+
+#interests p {
+    align-self: flex-start;
+}
+
+/* TABLET STYLING */
+
+@media only screen and (min-width: 600px) {
+
+
+/* About Me Description */
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main article {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #career {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main article h1 {
+        padding: 1rem 0 1rem;
+    }
+
+    main article h3 {
+        padding: 1rem 0 1rem;
+    }
+
+/* Resume */
+
+    .resume {
+        flex-direction: row;
+        flex: wrap;
+    }
+
+    .resume div{
+        width: 100%;
+    }
+
+    .resume p {
+        margin-bottom: 1.5rem; 
+    }
+
+    #resume_img {
+        width: 100%;
+    }
+
+/* Interests */
+    
+    .interests {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .interests img {
+        height: 50%;
+        width: 50%;
+        margin: 1rem;
+    }
+}
+
+/* DESKTOP STYLING */
+@media only screen 

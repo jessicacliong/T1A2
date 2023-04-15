@@ -21,53 +21,66 @@
         </header>
         <main >
         <!-- About Me Description -->
-            <article id="about_me">
-                <h1>About Me</h1>
-                <h3>Professional Career</h3>
-                <p>
-                    I am an aspiring web developer who has previously learnt some coding skills thourgh short courses such as Udacity & Coursera. 
-                    After completing the courses I've made a decision to pursue IT as a career and I'm currently completing the Diploma of Information Technology Bootcamp from Coder Academy to become a certified Developer.
-                </p>
-                <br>            
-                <p>
-                    I have decided to pursue a career in IT because it allows me to channel my logical, organized thinking and creative design.
-                    In my previous work experiences, I've always enjoyed building and creating great things and I believe I can channel the same passion in the IT industry.
-                </p>
-                <p>I have currently learnt or will be learning the following technologies in the near future:</p>
-                <br>
-                    <ul id="IT_skills_list">
-                        <li>Git</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>APIs</li>
-                        <li>C++</li>
-                        <li>Node JS</li>
-                        <li>React</li>
-                    </ul>
-                <br>
-                <p>To learn more about my skills and past experiences, please click the link to my resume below.</p>
-                <br>
+            <h1>About Me</h1>
+                <article class="about_me">
+                        <section id="career">
+                            <h3>Professional Career</h3>
+                            <p> I am an aspiring web developer who has previously learnt some coding skills thourgh short courses such as Udacity & Coursera. 
+                                After completing the courses I've made a decision to pursue IT as a career and I'm currently completing the Diploma of Information Technology Bootcamp from Coder Academy to become a certified Developer.
+                            </p>
+                            <br>            
+                            <p>
+                                I have decided to pursue a career in IT because it allows me to channel my logical, organized thinking and creative design.
+                                In my previous work experiences, I've always enjoyed building and creating great things and I believe I can channel the same passion in the IT industry.
+                            </p>
+                            <br>
+                        </section>
+                        <section id="IT_skills_list">
+                                <div>
+                                    <p>I have currently learnt or will be learning the following technologies in the near future:</p>
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>HTML5</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Python</li>
+                                        <li>APIs</li>
+                                        <li>C++</li>
+                                        <li>Node JS</li>
+                                        <li>React</li>
+                                    </ul>
+                                </div>
+                        </section>
+                </article>
                 <!-- Resume -->
-                <a id="resume" href="/documents/JL_CV.pdf"><img src="img/icons/icons8-document.jpeg" alt="Resume"/></a>
-                <br>
-            </article>
-            <article id="interests">
+                <article class="resume">
+                    <div>
+                        <h3>More Information</h3>
+                    </div>
+                    <div>
+                        <p>To learn more about my skills and past experiences, please see my resume.</p>
+                    </div>
+                    <div>
+                        <a id="resume_img" href="/documents/JL_CV.pdf"><img src="img/icons/icons8-document.jpeg" alt="Resume"/></a>
+                    </div>
+                    </article>
                 <!-- Interests & Hobbies -->
-                <h3>Interests & Hobbies</h3>
-                    <p>When I'm not working, I like to invest in Crypto, help out my family business or discover a new restaurant with friends and family.
-                       I love Malaysian, Chinese, Korean and Japanese Cuisines the most, though I like to try something new every so often. </p>
-                    <br>
-                    <p>In my spare time, I travel the world and photograph my adventures.</p>
-                    <br>
-                        <img src="/img/photos/airplane_window.jpeg" alt="">
-            </article>
+                <article class="interests">
+                    <h3>Interests & Hobbies</h3>
+                        <div>
+                            <p>When I'm not working, I like to invest in Crypto, help out my family business or discover a new restaurant with friends and family.
+                                I love Malaysian, Chinese, Korean and Japanese cuisines the most, though I like to try something new every so often. </p>
+                            <br>
+                            <p>In my spare time, I travel the world and photograph my adventures.</p>
+                            <br>
+                            <img src="/img/photos/airplane_window.jpeg" alt="View from the Plane">
+                        </div>
+                </article>
         </main>
         <!-- Back to Top Navigation -->
         <section>
             <nav id="backtotop_navigation">
-                <a href="about_me.html"><img src="/img/icons/icons8-up-squared-50.png"alt="Back to Top"/></a>
+                <a id="top" href="about_me.html"><img src="/img/icons/icons8-up-squared-50.png"alt="Back to Top"/></a>
             </nav>
         <!-- Social Media Links, Above Footer -->
             <nav id="social_links">

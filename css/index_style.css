@@ -1,38 +1,76 @@
 /* Profile Component */
+
+/* MOBILE STYLING */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }    
 
-/* Main Greeting Content */
-#homepage {
-    position: relative;
+/* Main Content */
+.homepage {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
 }
 
+.homepage div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #profile_photo {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-#homepage h1 {
-    font-size: 2rem;
-    font-weight: heavy;
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#content h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
     padding-bottom: 0.5rem;
 }
 
-#homepage h3 {
+#content h3 {
     font-size: 1.5rem;
+    padding-bottom: 2rem;
 }
 
-#homepage p {
+#content p {
+    text-align: center;
     font-size: 1.1rem;
     margin: 0.1rem;
+}
+
+/* TABLET STYLING */
+
+@media only screen and (min-width: 600px) {
+    
+/* Main Content */
+    .homepage { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 1rem 0 1rem;
+    }
+
+    #profile_photo {
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+    }
+
+    #content {
+        padding: 2rem;
+    }
 }
