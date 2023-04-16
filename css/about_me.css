@@ -19,6 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem;
 }
 
 main h1 {
@@ -34,17 +35,6 @@ main article {
     padding: 1.25rem;
 }
 
-main article div {
-    text-align: justify;
-}
-
-#career {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 main article h3 {
     align-items: center;
     padding-top: 1.5rem;
@@ -54,7 +44,10 @@ main article h3 {
     text-decoration-color: pink;
 }
 
-main article p {
+
+#career {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -95,13 +88,15 @@ main article p {
 
 /* TABLET STYLING */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
+    
+    /* About Me Description */
 
-
-/* About Me Description */
     main {
         flex-direction: row;
         flex-wrap: wrap;
+        text-align: justify;
+        margin: 2rem 8rem;
     }
 
     main article {
@@ -157,4 +152,17 @@ main article p {
 }
 
 /* DESKTOP STYLING */
-@media only screen 
+@media only screen and (min-width: 1000px) {
+
+    main {
+        margin: 2rem 13rem;
+    }
+
+}
+    
+@media only screen and (min-width: 1500px) {
+    main {
+        margin: 2rem 20rem;
+    }
+
+}
