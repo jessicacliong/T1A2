@@ -81,7 +81,6 @@ main article h4 {
     main {
         flex-direction: row;
         flex-wrap: wrap;
-        margin: rem;
     }
 
     main h1 {

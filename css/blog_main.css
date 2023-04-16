@@ -133,11 +133,11 @@ main article h4 {
 @media only screen and (min-width: 800px) {
     
     .blog_navigation {
-        width: 60%;
+        width: 50%;
     }
 
     main article {
-        width: 70%;
+        width: 60%;
     }
 }
 
@@ -156,5 +156,6 @@ main article h4 {
     }
     
     main article {
-        width: 60%;
+        width: 50%;
+    }
 }

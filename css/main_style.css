@@ -91,8 +91,7 @@ footer {
 
     #social_links {
         display: flex;
-        flex-direction: row;        
-        align-items: space-around;
+        flex-direction: row;       
     }
 
     footer {
@@ -119,7 +118,6 @@ footer {
     #social_links {
         display: flex;
         flex-direction: row;        
-        align-items: space-around;
     }
 
     footer {
