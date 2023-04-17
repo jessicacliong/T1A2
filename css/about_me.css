@@ -35,7 +35,7 @@ main article {
     padding: 1.25rem;
 }
 
-main article h3 {
+main article h3, main section h3 {
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
