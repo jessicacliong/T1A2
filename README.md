@@ -1,10 +1,13 @@
 # T1A2 - Portfolio Assignment
 
-Portfolio Website URL:
-https://t1a2-portfolio-website.vercel.app/index.html
+Portfolio Website URL:  
+https://t1a2-portfolio-website.vercel.app/index.html  
 
-GitHub Repository URL:
-https://github.com/jessicacliong/T1A2
+GitHub Repository URL:  
+https://github.com/jessicacliong/T1A2  
+
+Presentation Video URL:
+https://youtu.be/kRss-F_AFdg
 
 
 ## Purpose
@@ -18,7 +21,7 @@ This portfolio is not only a documentation of my achievements, but also an onlin
 
 ## Sitemap
 
-![Portfolio Sitemap](./docs/T1A2 Portfolio Sitemap.png) 
+![Portfolio Sitemap](/docs/T1A2_portfolio_sitemap.png) 
 
 As seen in the image, this shows the sitemap of the website.
 
@@ -34,42 +37,42 @@ There are 5 main pages / elements of the site, which include:
 The following screenshots of the website occur in the order they are clicked on the top main navigation bar, left to right, in the order of the Homepage, About Me, Projects, Main Blog Page.
 
 
-![Website - Homepage](./docs/Website - Home Page.png) 
+![Website - Homepage](/docs/website_home_page.png) 
 
-![Website - About Me](./docs/Website - About Me.png)
+![Website - About Me](/docs/website_about_me.png)
 
-![Website - Projects](./docs/Website - Projects.png)
+![Website - Projects](/docs/website_projects.png)
 
-![Website - Main Blog Page](./docs/Website - Main Blog Page.png)
+![Website - Main Blog Page](/docs/website_main_blog_page.png)
 
 In each screenshot of the Blog pages, the first screen shot is of the summary of the blog post, followed by the expanded, full version post. 
 
-![Website - Blog 1 of Blog Main Page](./docs/Website - Blog 1 of Blog Main Page.png)
+![Website - Blog 1 of Blog Main Page](/docs/website_blog_1_of_blog_main_page.png)
 
-![Website - Blog 1 Expanded](./docs/Website - Blog 1 Expanded.png)
+![Website - Blog 1 Expanded](/docs/website_blog_1_expanded.png)
 
-![Website - Blog 2 of Blog Main Page](./docs/Website - Blog 2 of Blog Main Page.png)
+![Website - Blog 2 of Blog Main Page](/docs/website_blog_2_of_blog_main_page.png)
 
-![Website - Blog 2 Expanded](./docs/Website - Blog 2 Expanded.png)
+![Website - Blog 2 Expanded](/docs/website_blog_2_expanded.png)
 
-![Website - Blog 3 of Blog Main Page](./docs/Website - Blog 3 of Blog Main Page.png)
+![Website - Blog 3 of Blog Main Page](/docs/website_blog_3_of_blog_main_page.png)
 
-![Website - Blog 3 Expanded](./docs/Website - Blog 3 Expanded.png)
+![Website - Blog 3 Expanded](/docs/website_blog_3_expanded.png)
 
-![Website - Blog 4 of Blog Main Page](./docs/Website - Blog 4 of Blog Main Page.png)
+![Website - Blog 4 of Blog Main Page](/docs/website_blog_4_of_blog_main_page.png)
 
-![Website - Blog 4 Expanded](./docs/Website - Blog 4 Expanded.png)
+![Website - Blog 4 Expanded](/docs/website_blog_4_expanded.png)
 
-![Website - Blog 5 of Blog Main Page](./docs/Website - Blog 5 of Blog Main Page.png)
+![Website - Blog 5 of Blog Main Page](/docs/website_blog_5_of_blog_main_page.png)
 
-![Website - Blog 5 Expanded](./docs/Website - Blog 5 Expanded.png)
+![Website - Blog 5 Expanded](/docs/website_blog_5_expanded.png)
 
 
 ## Functionality & Features
 
 1. Main Navigation Bar
 
-The main navigation bar on the top right hand corner of the page allows users to navigate around the website to view various information. 
+The main navigation bar on the top right hand corner of the page allows users to navigate around the website to view various information. It assists users of the Home Page, About Me Page, Project and the Blog Page.
 
 2. The Social Network Bar
 
