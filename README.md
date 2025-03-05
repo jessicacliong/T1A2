@@ -1,4 +1,4 @@
-# T1A2 - Portfolio Assignment
+# Portfolio Assignment
 
 Portfolio Website URL:  
 https://t1a2-portfolio-website.vercel.app/index.html  
